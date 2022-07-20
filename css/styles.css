@@ -1,0 +1,136 @@
+/* colors to use */
+
+:root {
+  --main-backrgound-color: #fff;
+  --secondary-background-color: #F5F4FA;
+  --hero-background-color: #2F303A;
+  --accent-color: #2196F3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --break-line-color: #ECECEC;
+  --logo-color: #000;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--main-text-color);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* logo-styles */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--logo-color);
+}
+
+.logo-white {
+  color: var(--main-backrgound-color)
+}
+
+/* navigation-syles */
+
+.contacts,
+.navigation {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts {
+  color: var(--secondary-text-color);
+}
+
+.contacts:hover,
+.contacts:focus,
+.navigation:hover,
+.navigation:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* hero-styles */
+
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-backrgound-color);
+  background-color: var(--hero-background-color)
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-backrgound-color);
+  background-color: var(--accent-color);
+}
+
+/* features-styles */
+
+.features-header {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* what do we do styles */
+
+.headers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* our team styles */
+
+.team {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--secondary-background-color);
+}
+.team-header {
+  font-weight: 500;
+}
+
+.team-text {
+  color: var(--secondary-text-color);
+}
+
+/* footer-styles */
+
