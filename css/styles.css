@@ -21,6 +21,10 @@ body {
   visibility: hidden;
 }
 
+.list {
+  list-style: none;
+}
+
 /* logo */
 
 .logo {
@@ -43,22 +47,22 @@ body {
 
 /* navigation */
 
+.contacts,
+.navigation {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .header .contacts,
 .header .navigation {
-    color: var(--main-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .header .contacts {
   color: var(--secondary-text-color);
-}
-
-.contacts,
-.navigation {
-  text-decoration: none;
 }
 
 .contacts:hover,
@@ -74,7 +78,7 @@ body {
 
 /* hero */
 
-.hero-header {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,6 +90,7 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -99,7 +104,7 @@ body {
 
 /* features */
 
-.features-header {
+.features-title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -115,7 +120,7 @@ body {
 
 /* what do we do */
 
-.headers {
+.titles {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -132,7 +137,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--secondary-background-color);
 }
-.team-header {
+.team-title {
   font-weight: 500;
 }
 
@@ -155,5 +160,5 @@ body {
 }
 
 .address .map-link {
-  color: var(--main-backrgound-color);
+  color: #fff;
 }
