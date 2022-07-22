@@ -9,6 +9,7 @@
   --secondary-text-color: #757575;
   --break-line-color: #ECECEC;
   --logo-color: #000;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6) ;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   visibility: hidden;
 }
 
-/* logo-styles */
+/* logo */
 
 .logo {
   font-family: 'Raleway';
@@ -40,31 +41,38 @@ body {
   color: var(--main-backrgound-color)
 }
 
-/* navigation-syles */
+/* navigation */
+
+.header .contacts,
+.header .navigation {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header .contacts {
+  color: var(--secondary-text-color);
+}
 
 .contacts,
 .navigation {
-  color: var(--main-text-color);
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.contacts {
-  color: var(--secondary-text-color);
 }
 
 .contacts:hover,
 .contacts:focus,
 .navigation:hover,
-.navigation:focus {
+.navigation:focus,
+.contacts.map-link:hover,
+.contacts.map-link:focus,
+.address .contacts:hover,
+.address .contacts:focus {
   color: var(--accent-color);
-  text-decoration: none;
 }
 
-/* hero-styles */
+/* hero */
 
 .hero-header {
   font-weight: 900;
@@ -89,7 +97,7 @@ body {
   background-color: var(--accent-color);
 }
 
-/* features-styles */
+/* features */
 
 .features-header {
   font-size: 14px;
@@ -105,7 +113,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* what do we do styles */
+/* what do we do */
 
 .headers {
   font-weight: 700;
@@ -115,7 +123,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* our team styles */
+/* our team */
 
 .team {
   font-size: 16px;
@@ -132,5 +140,20 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* footer-styles */
+/* footer */
 
+.footer {
+  background-color: var(--hero-background-color);
+}
+
+.address .contacts {
+  color: var(--footer-contacts-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address .map-link {
+  color: var(--main-backrgound-color);
+}
