@@ -12,6 +12,8 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6) ;
 }
 
+/* general */
+
 body {
   font-family: 'roboto', sans-serif;
   color: var(--main-text-color);
@@ -161,4 +163,24 @@ body {
 
 .address .map-link {
   color: #fff;
+}
+
+/* page portfolio */
+/* buttons */
+
+.btn {
+  font-family: inherit;
+  color: inherit;
+  background-color: var(--secondary-background-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.projects-text {
+  color: var(--secondary-text-color);
 }
